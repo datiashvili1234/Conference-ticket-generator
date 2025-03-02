@@ -1,0 +1,67 @@
+body {
+  background: url(assets/images/pattern-squiggly-line-bottom-desktop.svg)
+      no-repeat left bottom,
+    url(assets/images/pattern-squiggly-line-top.svg) no-repeat right top,
+    url(assets/images/background-desktop.png);
+  display: flex;
+  color: white;
+
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 10px;
+}
+.h1 {
+  color: white;
+  margin-bottom: 2px;
+}
+.span1 {
+  background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2 {
+  color: white;
+  margin-top: 2px;
+}
+.div1 {
+  text-align: center;
+}
+.span2 {
+  color: hsl(7, 71%, 60%);
+}
+.div4 {
+  background-image: url(assets/images/pattern-ticket.svg);
+  width: 550px;
+  height: 258px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: start;
+  padding: 20px;
+}
+.img5 {
+}
+.p2 {
+  padding-left: 80px;
+  color: hsla(252, 6%, 83%, 0.651);
+}
+.h4 {
+  width: 85px;
+  margin-left: auto;
+  transform: rotate(90deg);
+  letter-spacing: 1px;
+  color: hsla(252, 6%, 83%, 0.651);
+}
+.img6 {
+  width: 100px;
+  border-radius: 20px;
+}
+.h7 {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.div6 {
+  display: flex;
+  margin: 0;
+}
